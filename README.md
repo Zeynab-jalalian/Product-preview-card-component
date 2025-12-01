@@ -11,7 +11,7 @@ Thanks for checking out this front-end coding challenge.
  - ![CSS](https://img.shields.io/badge/Css-blue)
 
 
- you can see my project in [this demo](https://zeynab-jalalian.github.io/Results-summaryProduct-preview-card-component/)
+ you can see my project in [this demo](https://zeynab-jalalian.github.io/Product-preview-card-component/)
   ___
 
 
