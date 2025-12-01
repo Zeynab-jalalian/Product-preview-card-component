@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   padding: 20px;
   background: hsl(30, 38%, 92%);
 }
@@ -106,6 +107,10 @@ button {
 }
 button:hover {
   background: hsl(158, 42%, 18%);
+}
+footer{
+    margin-top: 30px;
+     font-size: 11px; text-align: center; color: hsl(228, 45%, 44%);
 }
 @media (max-width: 560px) {
   body {
