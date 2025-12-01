@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(30, 38%, 92%);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 700px;
+}
+main .img-box {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s ease;
+}
+.img-box img:hover{
+    transform: scale(1.2);
+}
+.text-box {
+  background: white;
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.text-box h3 {
+  color: hsl(228deg 9.11% 55.98%);
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.text-box h1 {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  max-width: 200px;
+  margin-bottom: 25px;
+}
+.text-box p {
+  color: hsl(228deg 9.11% 55.98%);
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.text-box .price {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.text-box p.mp {
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  font-weight: 700;
+}
+.text-box p.discount {
+  font-size: 14px;
+  color: hsl(228deg 9.11% 55.98%);
+  text-decoration: line-through;
+}
+button {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: hsl(158, 36%, 37%);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+button:hover {
+  background: hsl(158, 42%, 18%);
+}
