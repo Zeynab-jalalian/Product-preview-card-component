@@ -1,6 +1,6 @@
 # Frontend Mentor - Product preview card component
 
-![Design preview for the Recipe page coding challenge]([https://github.com/Zeynab-jalalian/Results-summary-component/blob/main/screencapture-127-0-0-1-5500-index-html-2025-11-24-15_05_44.png](https://github.com/Zeynab-jalalian/Product-preview-card-component/blob/main/screencapture-127-0-0-1-5500-index-html-2025-12-01-13_22_18.png))
+![Design preview for the Recipe page coding challenge](https://github.com/Zeynab-jalalian/Product-preview-card-component/blob/main/screencapture-127-0-0-1-5500-index-html-2025-12-01-13_22_18.png)
 
 ## Welcome! 👋
 
