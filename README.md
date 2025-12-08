@@ -6,7 +6,7 @@
 
 Thanks for checking out this front-end coding challenge.
 
-#### ![Languages](https://img.shields.io/github/languages/count/zeynab-jalalian/Snapp) :
+#### ![Languages](https://img.shields.io/github/languages/count/zeynab-jalalian/Product-preview-card-component) :
  - ![HTML](https://img.shields.io/badge/Html-orange)
  - ![CSS](https://img.shields.io/badge/Css-blue)
 
